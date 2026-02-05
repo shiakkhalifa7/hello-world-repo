@@ -1,8 +1,8 @@
 name: hello-world.yml
-On:
+on:
   push
 
-Jobs:
+jobs:
    hello-job:
     runs-on: ubuntu-latest
     steps:
