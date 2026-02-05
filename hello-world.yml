@@ -1,0 +1,10 @@
+name: hello-world.yml
+
+on:
+  push
+
+Job:
+  name: hello-job
+  runs-on:
+  - ubuntu-latest
+  run: Echo text echo "Hello, world!"
