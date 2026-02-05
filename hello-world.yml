@@ -1,8 +1,6 @@
 name: hello-world.yml
 On:
-  push:
-    branches:
-      - main
+  push
 
 Jobs:
    hello-job:
